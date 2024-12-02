@@ -53,7 +53,7 @@ def draw_histogram(paths, data):
     plt.subplots_adjust(left=0.1, right=0.9, top=0.9, bottom=0.1)
     plt.show()
 
-
+#Рисует гистограммы штрафов
 def draw_histogram_fines(data):
     color = ('red', 'blue', 'grey', 'yellow')
     labels = ('йцукен', 'diktor', 'zubachew', 'skoropis')
@@ -77,7 +77,7 @@ def draw_histogram_fines(data):
     plt.subplots_adjust(left=0.1, right=0.9, top=0.9, bottom=0.1)
     plt.show()
 
-
+# Рисует гистограммы удобных комбинаций
 def draw_histogram_combo(data):
     color = ('red', 'blue', 'grey', 'yellow')
     labels = ('йцукен', 'diktor', 'zubachew', 'skoropis')
